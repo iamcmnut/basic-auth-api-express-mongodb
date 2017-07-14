@@ -16,7 +16,7 @@ mongod
 2. ดาวน์โหลด source code
 โดยทำการเปิด command line ขึ้นมาอีกอันแล้วไปยังโฟลเดอร์ที่ต้องการ จากนั้นทำการพิมพ์คำสั่งดังต่อไปนี้
 ```
-git clone git@github.com:iamcmnut/basic-auth-api-express-mongodb.git
+git clone https://github.com/iamcmnut/basic-auth-api-express-mongodb.git
 ```
 3. ทำการติดตั้ง library ที่จำเป็นด้วยคำสั่งดังต่อไปนี้
 ```
