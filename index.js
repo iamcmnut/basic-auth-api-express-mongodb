@@ -23,8 +23,12 @@ router.post('/register', (req, res) => {
   registerController(req, res);
 });
 
+router.get('/', (req, res) => {
+  return res.send('<h1>It works!</h1>');
+});
+
 
 app.use('/api', router);
 
 app.listen(port);
-console.log(`your API server is running on port ${port}`);
+console.log(`your API server is running on http://localhost:${port}/api/`);
