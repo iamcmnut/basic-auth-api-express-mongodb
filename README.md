@@ -37,7 +37,7 @@ It works!
 ## API ที่สามารถใช้ได้ในรุ่นปัจจุบัน
 # Login
 | URL | HTTP Method |
-|---|---|---|
+|---|---|
 | `/api/login` | `POST` |
 
 #### ข้อมูลที่ส่งไปได้
@@ -56,7 +56,7 @@ It works!
 
 # Register
 | URL | HTTP Method |
-|---|---|---|
+|---|---|
 | `/api/register` | `POST` |
 
 #### ข้อมูลที่ส่งไปได้
