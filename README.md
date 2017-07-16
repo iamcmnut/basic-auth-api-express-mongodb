@@ -33,3 +33,43 @@ npm start
 ```
 It works!
 ```
+
+## API ที่สามารถใช้ได้ในรุ่นปัจจุบัน
+# Login
+| URL | HTTP Method |
+|---|---|---|
+| `/api/login` | `POST` |
+
+#### ข้อมูลที่ส่งไปได้
+| Argument | Example | Required |Description |
+|---|---|---|---|
+| `username` | `test` | Required | ชื่อบัญชีผู้ใช้งาน. |
+| `password` | `1234` | Required | รหัสผ่าน. |
+
+#### Result
+```json
+{
+  "success": true,
+  "msg": "login success"
+}
+```
+
+# Register
+| URL | HTTP Method |
+|---|---|---|
+| `/api/register` | `POST` |
+
+#### ข้อมูลที่ส่งไปได้
+| Argument | Example | Required |Description |
+|---|---|---|---|
+| `username` | `test` | Required | ชื่อบัญชีผู้ใช้งาน. |
+| `email` | `test@gmail.com` | Required | อีเมลของผู้ใช้งาน. |
+| `password` | `1234` | Required | รหัสผ่าน. |
+
+#### Result
+```json
+{
+  "success": true,
+  "msg": "register success"
+}
+```
